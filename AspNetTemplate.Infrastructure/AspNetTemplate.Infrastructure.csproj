@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CSharpFunctionalExtensions" Version="2.15.1" />
+        <PackageReference Include="FluentValidation" Version="9.5.3" />
+        <PackageReference Include="JetBrains.Annotations" Version="2020.3.0" />
+        <PackageReference Include="MassTransit.Prometheus" Version="7.1.7" />
+        <PackageReference Include="MediatR" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+
+        <PackageReference Include="EFCore.NamingConventions" Version="5.0.2" />
+        <PackageReference Include="FlexLabs.EntityFrameworkCore.Upsert" Version="4.0.0" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AspNetTemplate.Core\AspNetTemplate.Core.csproj" />
+    </ItemGroup>
+
+</Project>
